@@ -1,0 +1,87 @@
+Collecting tensorflow
+  Using cached https://files.pythonhosted.org/packages/d3/af/296748d4c8d8987423231b93aecce5ab5952f6f2243cb6cedb88dd425397/tensorflow-2.0.0-cp36-cp36m-win_amd64.whl
+Collecting keras-applications>=1.0.8
+  Using cached https://files.pythonhosted.org/packages/71/e3/19762fdfc62877ae9102edf6342d71b28fbfd9dea3d2f96a882ce099b03f/Keras_Applications-1.0.8-py3-none-any.whl
+Collecting tensorboard<2.1.0,>=2.0.0
+  Using cached https://files.pythonhosted.org/packages/76/54/99b9d5d52d5cb732f099baaaf7740403e83fe6b0cedde940fabd2b13d75a/tensorboard-2.0.2-py3-none-any.whl
+Requirement already satisfied: wheel>=0.26 in c:\users\hari\.conda\envs\mrcnn\lib\site-packages (from tensorflow) (0.33.6)
+Collecting opt-einsum>=2.3.2
+  Using cached https://files.pythonhosted.org/packages/b8/83/755bd5324777875e9dff19c2e59daec837d0378c09196634524a3d7269ac/opt_einsum-3.1.0.tar.gz
+Collecting protobuf>=3.6.1
+  Using cached https://files.pythonhosted.org/packages/10/21/a3a132e4d50483013a62cec6ae42dfca43571704184f972e39d606af9512/protobuf-3.11.0-cp36-cp36m-win_amd64.whl
+Collecting absl-py>=0.7.0
+  Using cached https://files.pythonhosted.org/packages/3b/72/e6e483e2db953c11efa44ee21c5fdb6505c4dffa447b4263ca8af6676b62/absl-py-0.8.1.tar.gz
+Collecting tensorflow-estimator<2.1.0,>=2.0.0
+  Using cached https://files.pythonhosted.org/packages/fc/08/8b927337b7019c374719145d1dceba21a8bb909b93b1ad6f8fb7d22c1ca1/tensorflow_estimator-2.0.1-py2.py3-none-any.whl
+Collecting wrapt>=1.11.1
+  Using cached https://files.pythonhosted.org/packages/23/84/323c2415280bc4fc880ac5050dddfb3c8062c2552b34c2e512eb4aa68f79/wrapt-1.11.2.tar.gz
+Requirement already satisfied: numpy<2.0,>=1.16.0 in c:\users\hari\.conda\envs\mrcnn\lib\site-packages (from tensorflow) (1.17.4)
+Collecting astor>=0.6.0
+  Using cached https://files.pythonhosted.org/packages/d1/4f/950dfae467b384fc96bc6469de25d832534f6b4441033c39f914efd13418/astor-0.8.0-py2.py3-none-any.whl
+Collecting keras-preprocessing>=1.0.5
+  Using cached https://files.pythonhosted.org/packages/28/6a/8c1f62c37212d9fc441a7e26736df51ce6f0e38455816445471f10da4f0a/Keras_Preprocessing-1.1.0-py2.py3-none-any.whl
+Collecting google-pasta>=0.1.6
+  Using cached https://files.pythonhosted.org/packages/c3/fd/1e86bc4837cc9a3a5faf3db9b1854aa04ad35b5f381f9648fbe81a6f94e4/google_pasta-0.1.8-py3-none-any.whl
+Collecting grpcio>=1.8.6
+  Using cached https://files.pythonhosted.org/packages/03/7d/5a51d7116a0f5a3a916148ed495698bfb6800868f0f60b0af55cb8353e84/grpcio-1.25.0-cp36-cp36m-win_amd64.whl
+Requirement already satisfied: six>=1.10.0 in c:\users\hari\.conda\envs\mrcnn\lib\site-packages (from tensorflow) (1.13.0)
+Collecting termcolor>=1.1.0
+  Using cached https://files.pythonhosted.org/packages/8a/48/a76be51647d0eb9f10e2a4511bf3ffb8cc1e6b14e9e4fab46173aa79f981/termcolor-1.1.0.tar.gz
+Collecting gast==0.2.2
+  Using cached https://files.pythonhosted.org/packages/4e/35/11749bf99b2d4e3cceb4d55ca22590b0d7c2c62b9de38ac4a4a7f4687421/gast-0.2.2.tar.gz
+Collecting h5py
+  Using cached https://files.pythonhosted.org/packages/0b/fa/bee65d2dbdbd3611702aafd128139c53c90a1285f169ba5467aab252e27a/h5py-2.10.0-cp36-cp36m-win_amd64.whl
+Collecting werkzeug>=0.11.15
+  Downloading https://files.pythonhosted.org/packages/ce/42/3aeda98f96e85fd26180534d36570e4d18108d62ae36f87694b476b83d6f/Werkzeug-0.16.0-py2.py3-none-any.whl (327kB)
+Collecting google-auth-oauthlib<0.5,>=0.4.1
+  Downloading https://files.pythonhosted.org/packages/7b/b8/88def36e74bee9fce511c9519571f4e485e890093ab7442284f4ffaef60b/google_auth_oauthlib-0.4.1-py2.py3-none-any.whl
+Collecting requests<3,>=2.21.0
+  Using cached https://files.pythonhosted.org/packages/51/bd/23c926cd341ea6b7dd0b2a00aba99ae0f828be89d72b2190f27c11d4b7fb/requests-2.22.0-py2.py3-none-any.whl
+Requirement already satisfied: setuptools>=41.0.0 in c:\users\hari\.conda\envs\mrcnn\lib\site-packages (from tensorboard<2.1.0,>=2.0.0->tensorflow) (42.0.1.post20191125)
+Collecting google-auth<2,>=1.6.3
+  Downloading https://files.pythonhosted.org/packages/7b/cb/786dc53d93494784935a62947643b48250b84a882474e714f9af5e1a1928/google_auth-1.7.1-py2.py3-none-any.whl (74kB)
+Collecting markdown>=2.6.8
+  Downloading https://files.pythonhosted.org/packages/c0/4e/fd492e91abdc2d2fcb70ef453064d980688762079397f779758e055f6575/Markdown-3.1.1-py2.py3-none-any.whl (87kB)
+Collecting requests-oauthlib>=0.7.0
+  Using cached https://files.pythonhosted.org/packages/a3/12/b92740d845ab62ea4edf04d2f4164d82532b5a0b03836d4d4e71c6f3d379/requests_oauthlib-1.3.0-py2.py3-none-any.whl
+Requirement already satisfied: certifi>=2017.4.17 in c:\users\hari\.conda\envs\mrcnn\lib\site-packages (from requests<3,>=2.21.0->tensorboard<2.1.0,>=2.0.0->tensorflow) (2019.9.11)
+Collecting chardet<3.1.0,>=3.0.2
+  Downloading https://files.pythonhosted.org/packages/bc/a9/01ffebfb562e4274b6487b4bb1ddec7ca55ec7510b22e4c51f14098443b8/chardet-3.0.4-py2.py3-none-any.whl (133kB)
+Collecting idna<2.9,>=2.5
+  Downloading https://files.pythonhosted.org/packages/14/2c/cd551d81dbe15200be1cf41cd03869a46fe7226e7450af7a6545bfc474c9/idna-2.8-py2.py3-none-any.whl (58kB)
+Collecting urllib3!=1.25.0,!=1.25.1,<1.26,>=1.21.1
+  Downloading https://files.pythonhosted.org/packages/b4/40/a9837291310ee1ccc242ceb6ebfd9eb21539649f193a7c8c86ba15b98539/urllib3-1.25.7-py2.py3-none-any.whl (125kB)
+Collecting pyasn1-modules>=0.2.1
+  Using cached https://files.pythonhosted.org/packages/52/50/bb4cefca37da63a0c52218ba2cb1b1c36110d84dcbae8aa48cd67c5e95c2/pyasn1_modules-0.2.7-py2.py3-none-any.whl
+Collecting cachetools<3.2,>=2.0.0
+  Downloading https://files.pythonhosted.org/packages/2f/a6/30b0a0bef12283e83e58c1d6e7b5aabc7acfc4110df81a4471655d33e704/cachetools-3.1.1-py2.py3-none-any.whl
+Collecting rsa<4.1,>=3.1.4
+  Downloading https://files.pythonhosted.org/packages/02/e5/38518af393f7c214357079ce67a317307936896e961e35450b70fad2a9cf/rsa-4.0-py2.py3-none-any.whl
+Collecting oauthlib>=3.0.0
+  Using cached https://files.pythonhosted.org/packages/05/57/ce2e7a8fa7c0afb54a0581b14a65b56e62b5759dbc98e80627142b8a3704/oauthlib-3.1.0-py2.py3-none-any.whl
+Collecting pyasn1<0.5.0,>=0.4.6
+  Using cached https://files.pythonhosted.org/packages/62/1e/a94a8d635fa3ce4cfc7f506003548d0a2447ae76fd5ca53932970fe3053f/pyasn1-0.4.8-py2.py3-none-any.whl
+Building wheels for collected packages: opt-einsum, absl-py, wrapt, termcolor, gast
+  Building wheel for opt-einsum (setup.py): started
+  Building wheel for opt-einsum (setup.py): finished with status 'done'
+  Created wheel for opt-einsum: filename=opt_einsum-3.1.0-cp36-none-any.whl size=61701 sha256=c74c542243dea0177ca1731a56fc6c02b0a5715d79492196c737051a8b12d6fb
+  Stored in directory: C:\Users\HARI\AppData\Local\pip\Cache\wheels\2c\b1\94\43d03e130b929aae7ba3f8d15cbd7bc0d1cb5bb38a5c721833
+  Building wheel for absl-py (setup.py): started
+  Building wheel for absl-py (setup.py): finished with status 'done'
+  Created wheel for absl-py: filename=absl_py-0.8.1-cp36-none-any.whl size=121171 sha256=5a44954ab47ed216ebad0c6ac504ad0d5fc4edb5bbf7d9287da5a5f9a41ab456
+  Stored in directory: C:\Users\HARI\AppData\Local\pip\Cache\wheels\a7\15\a0\0a0561549ad11cdc1bc8fa1191a353efd30facf6bfb507aefc
+  Building wheel for wrapt (setup.py): started
+  Building wheel for wrapt (setup.py): finished with status 'done'
+  Created wheel for wrapt: filename=wrapt-1.11.2-cp36-none-any.whl size=19597 sha256=b5857fa422560e9ecfea860f09690e1d48202e7dfa0f16da1c05db89e59ce22c
+  Stored in directory: C:\Users\HARI\AppData\Local\pip\Cache\wheels\d7\de\2e\efa132238792efb6459a96e85916ef8597fcb3d2ae51590dfd
+  Building wheel for termcolor (setup.py): started
+  Building wheel for termcolor (setup.py): finished with status 'done'
+  Created wheel for termcolor: filename=termcolor-1.1.0-cp36-none-any.whl size=4835 sha256=ad2dd53ed5d4f73412408a17468c37e55524bf2d9ef3c12337e05892acdd97fb
+  Stored in directory: C:\Users\HARI\AppData\Local\pip\Cache\wheels\7c\06\54\bc84598ba1daf8f970247f550b175aaaee85f68b4b0c5ab2c6
+  Building wheel for gast (setup.py): started
+  Building wheel for gast (setup.py): finished with status 'done'
+  Created wheel for gast: filename=gast-0.2.2-cp36-none-any.whl size=7547 sha256=3a6a3a4d53bc6c7af21a16bec575ea8b30b058335661e103e5834e72b72949cf
+  Stored in directory: C:\Users\HARI\AppData\Local\pip\Cache\wheels\5c\2e\7e\a1d4d4fcebe6c381f378ce7743a3ced3699feb89bcfbdadadd
+Successfully built opt-einsum absl-py wrapt termcolor gast
+Installing collected packages: h5py, keras-applications, werkzeug, grpcio, pyasn1, pyasn1-modules, cachetools, rsa, google-auth, chardet, idna, urllib3, requests, oauthlib, requests-oauthlib, google-auth-oauthlib, protobuf, absl-py, markdown, tensorboard, opt-einsum, tensorflow-estimator, wrapt, astor, keras-preprocessing, google-pasta, termcolor, gast, tensorflow
+Successfully installed absl-py-0.8.1 astor-0.8.0 cachetools-3.1.1 chardet-3.0.4 gast-0.2.2 google-auth-1.7.1 google-auth-oauthlib-0.4.1 google-pasta-0.1.8 grpcio-1.25.0 h5py-2.10.0 idna-2.8 keras-applications-1.0.8 keras-preprocessing-1.1.0 markdown-3.1.1 oauthlib-3.1.0 opt-einsum-3.1.0 protobuf-3.11.0 pyasn1-0.4.8 pyasn1-modules-0.2.7 requests-2.22.0 requests-oauthlib-1.3.0 rsa-4.0 tensorboard-2.0.2 tensorflow-2.0.0 tensorflow-estimator-2.0.1 termcolor-1.1.0 urllib3-1.25.7 werkzeug-0.16.0 wrapt-1.11.2
